@@ -67,6 +67,11 @@ const Profile = () => {
                     </div>
                 )
             }
+            {
+                error && (
+                    <p>{error}</p>
+                )
+            }
 
             <footer id="footer">
                 <p>© All rights reserved</p> 
